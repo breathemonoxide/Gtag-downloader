@@ -1,6 +1,6 @@
 # WELCOME TO GORILLATAG DOWNLOADER!
 
-This is a project that aims to allow you to experience gorilla tag as it was before. without multiplayer:( .
+This is a project that aims to allow you to experience gorilla tag as it was before. without multiplayer :( .
 
 # Why no multiplayer? 
 
