@@ -30,8 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             panel1 = new Panel();
-            label2 = new Label();
-            label1 = new Label();
+            button13 = new Button();
+            button9 = new Button();
+            button12 = new Button();
+            button11 = new Button();
+            button10 = new Button();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -41,41 +44,91 @@
             button7 = new Button();
             button8 = new Button();
             label3 = new Label();
-            button9 = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.Gainsboro;
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(label1);
+            panel1.Controls.Add(button13);
+            panel1.Controls.Add(button9);
+            panel1.Controls.Add(button12);
+            panel1.Controls.Add(button11);
+            panel1.Controls.Add(button10);
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(200, 752);
             panel1.TabIndex = 0;
             // 
-            // label2
+            // button13
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("MS Gothic", 72F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(12, 235);
-            label2.Name = "label2";
-            label2.Size = new Size(186, 97);
-            label2.TabIndex = 1;
-            label2.Text = "WIP";
-            label2.Click += label2_Click;
+            button13.BackColor = Color.White;
+            button13.FlatAppearance.BorderSize = 0;
+            button13.FlatStyle = FlatStyle.Flat;
+            button13.Font = new Font("Franklin Gothic Medium", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button13.Location = new Point(3, 122);
+            button13.Name = "button13";
+            button13.Size = new Size(194, 104);
+            button13.TabIndex = 16;
+            button13.Text = "Settings";
+            button13.UseVisualStyleBackColor = false;
+            button13.Click += button13_Click;
             // 
-            // label1
+            // button9
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Franklin Gothic Medium", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(37, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(135, 37);
-            label1.TabIndex = 0;
-            label1.Text = "Installed";
-            label1.Click += label1_Click;
+            button9.BackColor = Color.Gainsboro;
+            button9.FlatAppearance.BorderSize = 0;
+            button9.FlatStyle = FlatStyle.Flat;
+            button9.Font = new Font("Franklin Gothic Medium", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button9.Image = (Image)resources.GetObject("button9.Image");
+            button9.Location = new Point(132, 703);
+            button9.Name = "button9";
+            button9.Size = new Size(53, 46);
+            button9.TabIndex = 15;
+            button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
+            // 
+            // button12
+            // 
+            button12.BackColor = Color.Gainsboro;
+            button12.FlatAppearance.BorderSize = 0;
+            button12.FlatStyle = FlatStyle.Flat;
+            button12.Font = new Font("Franklin Gothic Medium", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button12.Image = (Image)resources.GetObject("button12.Image");
+            button12.Location = new Point(73, 703);
+            button12.Name = "button12";
+            button12.Size = new Size(53, 46);
+            button12.TabIndex = 14;
+            button12.UseVisualStyleBackColor = false;
+            button12.Click += button12_Click;
+            // 
+            // button11
+            // 
+            button11.BackColor = Color.Gainsboro;
+            button11.FlatAppearance.BorderSize = 0;
+            button11.FlatStyle = FlatStyle.Flat;
+            button11.Font = new Font("Franklin Gothic Medium", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button11.Image = (Image)resources.GetObject("button11.Image");
+            button11.Location = new Point(14, 703);
+            button11.Name = "button11";
+            button11.Size = new Size(53, 46);
+            button11.TabIndex = 13;
+            button11.UseVisualStyleBackColor = false;
+            button11.Click += button11_Click;
+            // 
+            // button10
+            // 
+            button10.BackColor = Color.White;
+            button10.FlatAppearance.BorderSize = 0;
+            button10.FlatStyle = FlatStyle.Flat;
+            button10.Font = new Font("Franklin Gothic Medium", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button10.Location = new Point(3, 12);
+            button10.Name = "button10";
+            button10.Size = new Size(194, 104);
+            button10.TabIndex = 11;
+            button10.Text = "Extra";
+            button10.UseVisualStyleBackColor = false;
+            button10.Click += button10_Click;
             // 
             // button1
             // 
@@ -99,12 +152,13 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Franklin Gothic Medium", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.ForeColor = Color.AliceBlue;
-            button2.Location = new Point(206, 179);
+            button2.Location = new Point(500, 12);
             button2.Name = "button2";
             button2.Size = new Size(271, 161);
             button2.TabIndex = 2;
             button2.Text = "sep-dec 2021";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -113,12 +167,13 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Franklin Gothic Medium", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button3.ForeColor = Color.AliceBlue;
-            button3.Location = new Point(206, 346);
+            button3.Location = new Point(206, 179);
             button3.Name = "button3";
             button3.Size = new Size(271, 161);
             button3.TabIndex = 3;
             button3.Text = "jan-jun 2022";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -127,12 +182,13 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Franklin Gothic Medium", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button4.ForeColor = Color.AliceBlue;
-            button4.Location = new Point(206, 513);
+            button4.Location = new Point(500, 179);
             button4.Name = "button4";
             button4.Size = new Size(271, 161);
             button4.TabIndex = 4;
             button4.Text = "jul-dec 2022";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -141,7 +197,7 @@
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Franklin Gothic Medium", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button5.ForeColor = Color.AliceBlue;
-            button5.Location = new Point(500, 12);
+            button5.Location = new Point(206, 346);
             button5.Name = "button5";
             button5.Size = new Size(271, 161);
             button5.TabIndex = 5;
@@ -155,7 +211,7 @@
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Franklin Gothic Medium", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button6.ForeColor = Color.AliceBlue;
-            button6.Location = new Point(500, 179);
+            button6.Location = new Point(500, 346);
             button6.Name = "button6";
             button6.Size = new Size(271, 161);
             button6.TabIndex = 6;
@@ -169,7 +225,7 @@
             button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Franklin Gothic Medium", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button7.ForeColor = Color.AliceBlue;
-            button7.Location = new Point(500, 346);
+            button7.Location = new Point(206, 513);
             button7.Name = "button7";
             button7.Size = new Size(271, 161);
             button7.TabIndex = 7;
@@ -197,24 +253,13 @@
             label3.Name = "label3";
             label3.Size = new Size(83, 15);
             label3.TabIndex = 9;
-            label3.Text = "0.01 -NTkernel";
-            // 
-            // button9
-            // 
-            button9.Font = new Font("Franklin Gothic Medium", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button9.Location = new Point(206, 680);
-            button9.Name = "button9";
-            button9.Size = new Size(129, 60);
-            button9.TabIndex = 10;
-            button9.Text = "settings";
-            button9.UseVisualStyleBackColor = true;
+            label3.Text = "0.02 -NTkernel";
             // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(807, 749);
-            Controls.Add(button9);
             Controls.Add(label3);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -231,7 +276,6 @@
             Text = "GorillaTag downloader";
             Load += Main_Load;
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -239,8 +283,6 @@
         #endregion
 
         private Panel panel1;
-        private Label label1;
-        private Label label2;
         private Button button1;
         private Button button2;
         private Button button3;
@@ -250,6 +292,10 @@
         private Button button7;
         private Button button8;
         private Label label3;
+        private Button button10;
+        private Button button12;
+        private Button button11;
         private Button button9;
+        private Button button13;
     }
 }

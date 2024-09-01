@@ -1,6 +1,6 @@
 ﻿namespace GorillaTag_Downloader
 {
-    partial class feb_aug21
+    partial class jul_dec22
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(feb_aug21));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(jul_dec22));
             label1 = new Label();
-            button1 = new Button();
-            textBox1 = new TextBox();
             label2 = new Label();
-            label3 = new Label();
+            textBox1 = new TextBox();
+            button1 = new Button();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
@@ -42,188 +41,151 @@
             button7 = new Button();
             button8 = new Button();
             button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
+            button16 = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Franklin Gothic Medium", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(10, 9);
             label1.Name = "label1";
             label1.Size = new Size(329, 34);
-            label1.TabIndex = 0;
+            label1.TabIndex = 2;
             label1.Text = "Please choose your version";
-            // 
-            // button1
-            // 
-            button1.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(12, 85);
-            button1.Name = "button1";
-            button1.Size = new Size(327, 43);
-            button1.TabIndex = 1;
-            button1.Text = "Initial release";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(150, 46);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(189, 23);
-            textBox1.TabIndex = 2;
-            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Franklin Gothic Medium", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(12, 49);
+            label2.Location = new Point(12, 57);
             label2.Name = "label2";
             label2.Size = new Size(124, 16);
-            label2.TabIndex = 3;
+            label2.TabIndex = 5;
             label2.Text = "Enter steam username=";
-            label2.Click += label2_Click;
             // 
-            // label3
+            // textBox1
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(289, 113);
-            label3.Name = "label3";
-            label3.Size = new Size(0, 15);
-            label3.TabIndex = 4;
+            textBox1.Location = new Point(142, 50);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(189, 23);
+            textBox1.TabIndex = 6;
+            // 
+            // button1
+            // 
+            button1.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Location = new Point(10, 88);
+            button1.Name = "button1";
+            button1.Size = new Size(327, 43);
+            button1.TabIndex = 7;
+            button1.Text = "Summer 2022";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
             button2.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(12, 134);
+            button2.Location = new Point(10, 137);
             button2.Name = "button2";
             button2.Size = new Size(327, 43);
-            button2.TabIndex = 5;
-            button2.Text = "Caves release";
+            button2.TabIndex = 8;
+            button2.Text = "Paintbrawl";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
             // button3
             // 
             button3.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(12, 183);
+            button3.Location = new Point(10, 186);
             button3.Name = "button3";
             button3.Size = new Size(327, 43);
-            button3.TabIndex = 6;
-            button3.Text = "Early access cosmetics";
+            button3.TabIndex = 9;
+            button3.Text = "Halloween 2022";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
             // button4
             // 
             button4.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.Location = new Point(12, 232);
+            button4.Location = new Point(10, 235);
             button4.Name = "button4";
             button4.Size = new Size(327, 43);
-            button4.TabIndex = 7;
-            button4.Text = "Casual queue";
+            button4.TabIndex = 10;
+            button4.Text = "Halloween flashback 2022";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
             // button5
             // 
             button5.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button5.Location = new Point(12, 281);
+            button5.Location = new Point(10, 284);
             button5.Name = "button5";
             button5.Size = new Size(327, 43);
-            button5.TabIndex = 8;
-            button5.Text = "Canyon release";
+            button5.TabIndex = 11;
+            button5.Text = "TOS";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
             // button6
             // 
             button6.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button6.Location = new Point(12, 330);
+            button6.Location = new Point(10, 333);
             button6.Name = "button6";
             button6.Size = new Size(327, 43);
-            button6.TabIndex = 9;
-            button6.Text = "More server locations";
+            button6.TabIndex = 12;
+            button6.Text = "Fall 2022";
             button6.UseVisualStyleBackColor = true;
             button6.Click += button6_Click;
             // 
             // button7
             // 
             button7.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button7.Location = new Point(12, 379);
+            button7.Location = new Point(10, 382);
             button7.Name = "button7";
             button7.Size = new Size(327, 43);
-            button7.TabIndex = 10;
-            button7.Text = "Lava particles";
+            button7.TabIndex = 13;
+            button7.Text = "Fall flashback 2022";
             button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
             // 
             // button8
             // 
             button8.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button8.Location = new Point(12, 428);
+            button8.Location = new Point(10, 431);
             button8.Name = "button8";
             button8.Size = new Size(327, 43);
-            button8.TabIndex = 11;
-            button8.Text = "Sound update";
+            button8.TabIndex = 14;
+            button8.Text = "Launch";
             button8.UseVisualStyleBackColor = true;
             button8.Click += button8_Click;
             // 
             // button9
             // 
             button9.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button9.Location = new Point(12, 477);
+            button9.Location = new Point(10, 480);
             button9.Name = "button9";
             button9.Size = new Size(327, 43);
-            button9.TabIndex = 12;
-            button9.Text = "Security patch";
+            button9.TabIndex = 15;
+            button9.Text = "Christmas 2022";
             button9.UseVisualStyleBackColor = true;
             button9.Click += button9_Click;
             // 
-            // button10
+            // button16
             // 
-            button10.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button10.Location = new Point(12, 526);
-            button10.Name = "button10";
-            button10.Size = new Size(327, 43);
-            button10.TabIndex = 13;
-            button10.Text = "Performace patch";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += button10_Click;
+            button16.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button16.Location = new Point(12, 556);
+            button16.Name = "button16";
+            button16.Size = new Size(124, 43);
+            button16.TabIndex = 22;
+            button16.Text = "return";
+            button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
             // 
-            // button11
-            // 
-            button11.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button11.Location = new Point(12, 575);
-            button11.Name = "button11";
-            button11.Size = new Size(327, 43);
-            button11.TabIndex = 14;
-            button11.Text = "Music patch";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += button11_Click;
-            // 
-            // button12
-            // 
-            button12.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button12.Location = new Point(12, 639);
-            button12.Name = "button12";
-            button12.Size = new Size(124, 43);
-            button12.TabIndex = 15;
-            button12.Text = "return";
-            button12.UseVisualStyleBackColor = true;
-            button12.Click += button12_Click;
-            // 
-            // feb_aug21
+            // jul_dec22
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(351, 694);
-            Controls.Add(button12);
-            Controls.Add(button11);
-            Controls.Add(button10);
+            ClientSize = new Size(351, 611);
+            Controls.Add(button16);
             Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
@@ -232,14 +194,13 @@
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(textBox1);
             Controls.Add(button1);
+            Controls.Add(textBox1);
+            Controls.Add(label2);
             Controls.Add(label1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "feb_aug21";
-            Text = "feb-aug21";
+            Name = "jul_dec22";
+            Text = "jul_dec22";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -247,10 +208,9 @@
         #endregion
 
         private Label label1;
-        private Button button1;
-        private TextBox textBox1;
         private Label label2;
-        private Label label3;
+        private TextBox textBox1;
+        private Button button1;
         private Button button2;
         private Button button3;
         private Button button4;
@@ -259,8 +219,6 @@
         private Button button7;
         private Button button8;
         private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
+        private Button button16;
     }
 }
