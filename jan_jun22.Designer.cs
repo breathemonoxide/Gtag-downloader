@@ -72,6 +72,7 @@
             // 
             // textBox1
             // 
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
             textBox1.Location = new Point(150, 48);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(189, 23);
@@ -79,178 +80,226 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.Gainsboro;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.Location = new Point(10, 89);
             button1.Name = "button1";
             button1.Size = new Size(327, 43);
             button1.TabIndex = 6;
             button1.Text = "Winter 2022";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // button2
             // 
+            button2.BackColor = Color.Gainsboro;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.Location = new Point(10, 138);
             button2.Name = "button2";
             button2.Size = new Size(327, 43);
             button2.TabIndex = 7;
             button2.Text = "Valentine's day 2022";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button3
             // 
+            button3.BackColor = Color.Gainsboro;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button3.Location = new Point(10, 187);
             button3.Name = "button3";
             button3.Size = new Size(327, 43);
             button3.TabIndex = 8;
             button3.Text = "GT1";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button4
             // 
+            button4.BackColor = Color.Gainsboro;
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button4.Location = new Point(10, 236);
             button4.Name = "button4";
             button4.Size = new Size(327, 43);
             button4.TabIndex = 9;
             button4.Text = "House update";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // button5
             // 
+            button5.BackColor = Color.Gainsboro;
+            button5.FlatAppearance.BorderSize = 0;
+            button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button5.Location = new Point(10, 285);
             button5.Name = "button5";
             button5.Size = new Size(327, 43);
             button5.TabIndex = 10;
             button5.Text = "Mountains";
-            button5.UseVisualStyleBackColor = true;
+            button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
             // button6
             // 
+            button6.BackColor = Color.Gainsboro;
+            button6.FlatAppearance.BorderSize = 0;
+            button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button6.Location = new Point(10, 334);
             button6.Name = "button6";
             button6.Size = new Size(327, 43);
             button6.TabIndex = 11;
             button6.Text = "Competitive obstacle course";
-            button6.UseVisualStyleBackColor = true;
+            button6.UseVisualStyleBackColor = false;
             button6.Click += button6_Click;
             // 
             // button7
             // 
+            button7.BackColor = Color.Gainsboro;
+            button7.FlatAppearance.BorderSize = 0;
+            button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button7.Location = new Point(10, 383);
             button7.Name = "button7";
             button7.Size = new Size(327, 43);
             button7.TabIndex = 12;
             button7.Text = "St Patrick's day 2022";
-            button7.UseVisualStyleBackColor = true;
+            button7.UseVisualStyleBackColor = false;
             button7.Click += button7_Click;
             // 
             // button8
             // 
+            button8.BackColor = Color.Gainsboro;
+            button8.FlatAppearance.BorderSize = 0;
+            button8.FlatStyle = FlatStyle.Flat;
             button8.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button8.Location = new Point(10, 432);
             button8.Name = "button8";
             button8.Size = new Size(327, 43);
             button8.TabIndex = 13;
             button8.Text = "Spring 2022";
-            button8.UseVisualStyleBackColor = true;
+            button8.UseVisualStyleBackColor = false;
             button8.Click += button8_Click;
             // 
             // button9
             // 
+            button9.BackColor = Color.Gainsboro;
+            button9.FlatAppearance.BorderSize = 0;
+            button9.FlatStyle = FlatStyle.Flat;
             button9.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button9.Location = new Point(10, 481);
             button9.Name = "button9";
             button9.Size = new Size(327, 43);
             button9.TabIndex = 14;
-            button9.Text = "Preformance update";
-            button9.UseVisualStyleBackColor = true;
+            button9.Text = "Performance update";
+            button9.UseVisualStyleBackColor = false;
             button9.Click += button9_Click;
             // 
             // button10
             // 
+            button10.BackColor = Color.Gainsboro;
+            button10.FlatAppearance.BorderSize = 0;
+            button10.FlatStyle = FlatStyle.Flat;
             button10.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button10.Location = new Point(10, 530);
             button10.Name = "button10";
             button10.Size = new Size(327, 43);
             button10.TabIndex = 15;
             button10.Text = "New time of day";
-            button10.UseVisualStyleBackColor = true;
+            button10.UseVisualStyleBackColor = false;
             button10.Click += button10_Click;
             // 
             // button11
             // 
+            button11.BackColor = Color.Gainsboro;
+            button11.FlatAppearance.BorderSize = 0;
+            button11.FlatStyle = FlatStyle.Flat;
             button11.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button11.Location = new Point(10, 579);
             button11.Name = "button11";
             button11.Size = new Size(327, 43);
             button11.TabIndex = 16;
             button11.Text = "April fools";
-            button11.UseVisualStyleBackColor = true;
+            button11.UseVisualStyleBackColor = false;
             button11.Click += button11_Click;
             // 
             // button12
             // 
+            button12.BackColor = Color.Gainsboro;
+            button12.FlatAppearance.BorderSize = 0;
+            button12.FlatStyle = FlatStyle.Flat;
             button12.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button12.Location = new Point(10, 628);
             button12.Name = "button12";
             button12.Size = new Size(327, 43);
             button12.TabIndex = 17;
             button12.Text = "April cosmetics";
-            button12.UseVisualStyleBackColor = true;
+            button12.UseVisualStyleBackColor = false;
             button12.Click += button12_Click;
             // 
             // button13
             // 
+            button13.BackColor = Color.Gainsboro;
+            button13.FlatAppearance.BorderSize = 0;
+            button13.FlatStyle = FlatStyle.Flat;
             button13.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button13.Location = new Point(10, 677);
             button13.Name = "button13";
             button13.Size = new Size(327, 43);
             button13.TabIndex = 18;
             button13.Text = "Rain update";
-            button13.UseVisualStyleBackColor = true;
+            button13.UseVisualStyleBackColor = false;
             button13.Click += button13_Click;
             // 
             // button14
             // 
+            button14.BackColor = Color.Gainsboro;
+            button14.FlatAppearance.BorderSize = 0;
+            button14.FlatStyle = FlatStyle.Flat;
             button14.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button14.Location = new Point(10, 726);
             button14.Name = "button14";
             button14.Size = new Size(327, 43);
             button14.TabIndex = 19;
             button14.Text = "Music update";
-            button14.UseVisualStyleBackColor = true;
+            button14.UseVisualStyleBackColor = false;
             button14.Click += button14_Click;
             // 
             // button15
             // 
+            button15.BackColor = Color.Gainsboro;
+            button15.FlatAppearance.BorderSize = 0;
+            button15.FlatStyle = FlatStyle.Flat;
             button15.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button15.Location = new Point(10, 775);
             button15.Name = "button15";
             button15.Size = new Size(327, 43);
             button15.TabIndex = 20;
             button15.Text = "Guitar update";
-            button15.UseVisualStyleBackColor = true;
+            button15.UseVisualStyleBackColor = false;
             button15.Click += button15_Click;
             // 
             // button16
             // 
+            button16.BackColor = Color.Gainsboro;
+            button16.FlatAppearance.BorderSize = 0;
+            button16.FlatStyle = FlatStyle.Flat;
             button16.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button16.Location = new Point(12, 844);
             button16.Name = "button16";
             button16.Size = new Size(124, 43);
             button16.TabIndex = 21;
             button16.Text = "return";
-            button16.UseVisualStyleBackColor = true;
+            button16.UseVisualStyleBackColor = false;
             button16.Click += button16_Click;
             // 
             // jan_jun22
@@ -278,6 +327,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "jan_jun22";
             Text = "jan-jun22";
             ResumeLayout(false);

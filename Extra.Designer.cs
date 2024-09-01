@@ -49,14 +49,16 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.Gainsboro;
             button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Franklin Gothic Medium", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.Location = new Point(12, 144);
             button1.Name = "button1";
             button1.Size = new Size(266, 66);
             button1.TabIndex = 1;
             button1.Text = "PreAlpha";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -123,6 +125,7 @@
             Controls.Add(button1);
             Controls.Add(label1);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Extra";
             Text = "Extra builds";
             ResumeLayout(false);

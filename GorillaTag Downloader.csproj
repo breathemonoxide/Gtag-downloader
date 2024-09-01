@@ -15,27 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="DepotDownloader">
-      <HintPath>..\..\..\..\Downloads\DepotDownloader-framework\DepotDownloader.dll</HintPath>
-    </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>..\..\..\..\Downloads\DepotDownloader-framework\protobuf-net.dll</HintPath>
-    </Reference>
-    <Reference Include="protobuf-net.Core">
-      <HintPath>..\..\..\..\Downloads\DepotDownloader-framework\protobuf-net.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="QRCoder">
-      <HintPath>..\..\..\..\Downloads\DepotDownloader-framework\QRCoder.dll</HintPath>
-    </Reference>
-    <Reference Include="SteamKit2">
-      <HintPath>..\..\..\..\Downloads\DepotDownloader-framework\SteamKit2.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Hashing">
-      <HintPath>..\..\..\..\Downloads\DepotDownloader-framework\System.IO.Hashing.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

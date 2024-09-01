@@ -253,7 +253,7 @@
             label3.Name = "label3";
             label3.Size = new Size(83, 15);
             label3.TabIndex = 9;
-            label3.Text = "0.02 -NTkernel";
+            label3.Text = "0.03 -NTkernel";
             // 
             // Main
             // 
