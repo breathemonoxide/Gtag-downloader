@@ -1,4 +1,4 @@
-# WELCOME TO GORILLATAG DOWNLOADER!
+# WELCOME TO GTAG DOWNLOADER!
 
 This is a project that aims to allow you to experience gorilla tag as it was before. without multiplayer :( .
 
