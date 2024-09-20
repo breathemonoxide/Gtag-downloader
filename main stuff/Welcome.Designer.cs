@@ -32,7 +32,6 @@
             label1 = new Label();
             label2 = new Label();
             Steam = new Button();
-            button2 = new Button();
             button3 = new Button();
             label3 = new Label();
             label4 = new Label();
@@ -73,18 +72,6 @@
             Steam.UseVisualStyleBackColor = false;
             Steam.Click += Steam_Click;
             // 
-            // button2
-            // 
-            button2.BackColor = Color.Silver;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(100, 299);
-            button2.Name = "button2";
-            button2.Size = new Size(186, 51);
-            button2.TabIndex = 4;
-            button2.Text = "Oculus (PC) -soon";
-            button2.UseVisualStyleBackColor = false;
-            // 
             // button3
             // 
             button3.BackColor = Color.Silver;
@@ -104,9 +91,9 @@
             label3.AutoSize = true;
             label3.Location = new Point(292, 426);
             label3.Name = "label3";
-            label3.Size = new Size(78, 15);
+            label3.Size = new Size(81, 15);
             label3.TabIndex = 6;
-            label3.Text = "NTkernel 0.04";
+            label3.Text = "NTkernel 0.1.1";
             label3.Click += label3_Click;
             // 
             // label4
@@ -128,10 +115,10 @@
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(button3);
-            Controls.Add(button2);
             Controls.Add(Steam);
             Controls.Add(label2);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             MinimizeBox = false;
@@ -148,7 +135,6 @@
         private Label label1;
         private Label label2;
         private Button Steam;
-        private Button button2;
         private Button button3;
         private Label label3;
         private Label label4;

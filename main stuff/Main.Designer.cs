@@ -268,7 +268,7 @@
             label3.Name = "label3";
             label3.Size = new Size(81, 15);
             label3.TabIndex = 19;
-            label3.Text = "NTkernel 0.1.0";
+            label3.Text = "NTkernel 0.1.1";
             // 
             // Main
             // 
@@ -287,6 +287,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "Main";

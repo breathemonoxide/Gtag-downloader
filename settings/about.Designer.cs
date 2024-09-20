@@ -64,9 +64,9 @@
             label3.Font = new Font("Franklin Gothic Medium", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.Location = new Point(139, 76);
             label3.Name = "label3";
-            label3.Size = new Size(86, 21);
+            label3.Size = new Size(90, 21);
             label3.TabIndex = 2;
-            label3.Text = "Alpha 0.04";
+            label3.Text = "Alpha 0.1.1";
             // 
             // label4
             // 
@@ -94,7 +94,7 @@
             label6.Name = "label6";
             label6.Size = new Size(143, 17);
             label6.TabIndex = 5;
-            label6.Text = "Build date 13/09/2024";
+            label6.Text = "Build date 20/09/2024";
             // 
             // about
             // 

@@ -144,6 +144,7 @@
             ClientSize = new Size(807, 749);
             ControlBox = false;
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "mainquest";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "GTAG downloader";
