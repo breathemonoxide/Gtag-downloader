@@ -40,7 +40,9 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Franklin Gothic Medium", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.Control;
             label1.Location = new Point(90, 50);
             label1.Name = "label1";
             label1.Size = new Size(205, 41);
@@ -50,7 +52,9 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Franklin Gothic Medium", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = SystemColors.Control;
             label2.Location = new Point(100, 131);
             label2.Name = "label2";
             label2.Size = new Size(186, 20);
@@ -60,10 +64,11 @@
             // 
             // Steam
             // 
-            Steam.BackColor = Color.Silver;
+            Steam.BackColor = Color.DimGray;
             Steam.FlatAppearance.BorderSize = 0;
             Steam.FlatAppearance.MouseOverBackColor = Color.SteelBlue;
             Steam.FlatStyle = FlatStyle.Flat;
+            Steam.ForeColor = SystemColors.ActiveCaptionText;
             Steam.Location = new Point(100, 185);
             Steam.Name = "Steam";
             Steam.Size = new Size(186, 51);
@@ -74,7 +79,7 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.Silver;
+            button3.BackColor = Color.DimGray;
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatAppearance.MouseOverBackColor = Color.WhiteSmoke;
             button3.FlatStyle = FlatStyle.Flat;
@@ -82,24 +87,28 @@
             button3.Name = "button3";
             button3.Size = new Size(186, 51);
             button3.TabIndex = 5;
-            button3.Text = "Oculus (Quest)";
+            button3.Text = "Quest (Historical)";
             button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(292, 426);
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = SystemColors.Control;
+            label3.Location = new Point(335, 426);
             label3.Name = "label3";
-            label3.Size = new Size(81, 15);
+            label3.Size = new Size(32, 15);
             label3.TabIndex = 6;
-            label3.Text = "NTkernel 0.1.1";
+            label3.Text = "V 0.2";
             label3.Click += label3_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
             label4.Font = new Font("Franklin Gothic Medium", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.ForeColor = SystemColors.Control;
             label4.Location = new Point(12, 9);
             label4.Name = "label4";
             label4.Size = new Size(360, 41);
@@ -111,6 +120,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(379, 450);
             Controls.Add(label4);
             Controls.Add(label3);

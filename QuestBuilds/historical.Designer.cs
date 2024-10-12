@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(historical));
             label1 = new Label();
             label2 = new Label();
             button1 = new Button();
@@ -94,22 +95,27 @@
             button61 = new Button();
             button62 = new Button();
             button63 = new Button();
+            label3 = new Label();
             flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Franklin Gothic Medium", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Black;
             label1.Location = new Point(12, 9);
             label1.Name = "label1";
             label1.Size = new Size(329, 34);
             label1.TabIndex = 3;
             label1.Text = "Please choose your version";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Franklin Gothic Medium", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(46, 43);
             label2.Name = "label2";
@@ -119,7 +125,7 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Gainsboro;
+            button1.BackColor = Color.DimGray;
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -133,7 +139,7 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.Gainsboro;
+            button2.BackColor = Color.DimGray;
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -147,7 +153,7 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.Gainsboro;
+            button3.BackColor = Color.DimGray;
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
             button3.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -161,7 +167,7 @@
             // 
             // button4
             // 
-            button4.BackColor = Color.Gainsboro;
+            button4.BackColor = Color.DimGray;
             button4.FlatAppearance.BorderSize = 0;
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -175,7 +181,7 @@
             // 
             // button5
             // 
-            button5.BackColor = Color.Gainsboro;
+            button5.BackColor = Color.DimGray;
             button5.FlatAppearance.BorderSize = 0;
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -189,7 +195,7 @@
             // 
             // button6
             // 
-            button6.BackColor = Color.Gainsboro;
+            button6.BackColor = Color.DimGray;
             button6.FlatAppearance.BorderSize = 0;
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -203,7 +209,7 @@
             // 
             // button7
             // 
-            button7.BackColor = Color.Gainsboro;
+            button7.BackColor = Color.DimGray;
             button7.FlatAppearance.BorderSize = 0;
             button7.FlatStyle = FlatStyle.Flat;
             button7.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -217,7 +223,7 @@
             // 
             // button8
             // 
-            button8.BackColor = Color.Gainsboro;
+            button8.BackColor = Color.DimGray;
             button8.FlatAppearance.BorderSize = 0;
             button8.FlatStyle = FlatStyle.Flat;
             button8.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -231,7 +237,7 @@
             // 
             // button9
             // 
-            button9.BackColor = Color.Gainsboro;
+            button9.BackColor = Color.DimGray;
             button9.FlatAppearance.BorderSize = 0;
             button9.FlatStyle = FlatStyle.Flat;
             button9.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -245,7 +251,7 @@
             // 
             // button10
             // 
-            button10.BackColor = Color.Gainsboro;
+            button10.BackColor = Color.DimGray;
             button10.FlatAppearance.BorderSize = 0;
             button10.FlatStyle = FlatStyle.Flat;
             button10.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -259,7 +265,7 @@
             // 
             // button11
             // 
-            button11.BackColor = Color.Gainsboro;
+            button11.BackColor = Color.DimGray;
             button11.FlatAppearance.BorderSize = 0;
             button11.FlatStyle = FlatStyle.Flat;
             button11.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -273,7 +279,7 @@
             // 
             // button12
             // 
-            button12.BackColor = Color.Gainsboro;
+            button12.BackColor = Color.DimGray;
             button12.FlatAppearance.BorderSize = 0;
             button12.FlatStyle = FlatStyle.Flat;
             button12.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -287,7 +293,7 @@
             // 
             // button13
             // 
-            button13.BackColor = Color.Gainsboro;
+            button13.BackColor = Color.DimGray;
             button13.FlatAppearance.BorderSize = 0;
             button13.FlatStyle = FlatStyle.Flat;
             button13.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -302,6 +308,7 @@
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.AutoScroll = true;
+            flowLayoutPanel1.BackgroundImage = (Image)resources.GetObject("flowLayoutPanel1.BackgroundImage");
             flowLayoutPanel1.Controls.Add(button1);
             flowLayoutPanel1.Controls.Add(button2);
             flowLayoutPanel1.Controls.Add(button3);
@@ -365,15 +372,15 @@
             flowLayoutPanel1.Controls.Add(button61);
             flowLayoutPanel1.Controls.Add(button62);
             flowLayoutPanel1.Controls.Add(button63);
-            flowLayoutPanel1.Location = new Point(3, 62);
+            flowLayoutPanel1.Location = new Point(3, 83);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(351, 829);
+            flowLayoutPanel1.Size = new Size(351, 808);
             flowLayoutPanel1.TabIndex = 20;
             flowLayoutPanel1.Paint += flowLayoutPanel1_Paint;
             // 
             // button14
             // 
-            button14.BackColor = Color.Gainsboro;
+            button14.BackColor = Color.DimGray;
             button14.FlatAppearance.BorderSize = 0;
             button14.FlatStyle = FlatStyle.Flat;
             button14.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -387,7 +394,7 @@
             // 
             // button15
             // 
-            button15.BackColor = Color.Gainsboro;
+            button15.BackColor = Color.DimGray;
             button15.FlatAppearance.BorderSize = 0;
             button15.FlatStyle = FlatStyle.Flat;
             button15.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -401,7 +408,7 @@
             // 
             // button16
             // 
-            button16.BackColor = Color.Gainsboro;
+            button16.BackColor = Color.DimGray;
             button16.FlatAppearance.BorderSize = 0;
             button16.FlatStyle = FlatStyle.Flat;
             button16.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -415,7 +422,7 @@
             // 
             // button17
             // 
-            button17.BackColor = Color.Gainsboro;
+            button17.BackColor = Color.DimGray;
             button17.FlatAppearance.BorderSize = 0;
             button17.FlatStyle = FlatStyle.Flat;
             button17.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -429,7 +436,7 @@
             // 
             // button18
             // 
-            button18.BackColor = Color.Gainsboro;
+            button18.BackColor = Color.DimGray;
             button18.FlatAppearance.BorderSize = 0;
             button18.FlatStyle = FlatStyle.Flat;
             button18.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -443,7 +450,7 @@
             // 
             // button19
             // 
-            button19.BackColor = Color.Gainsboro;
+            button19.BackColor = Color.DimGray;
             button19.FlatAppearance.BorderSize = 0;
             button19.FlatStyle = FlatStyle.Flat;
             button19.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -457,7 +464,7 @@
             // 
             // button20
             // 
-            button20.BackColor = Color.Gainsboro;
+            button20.BackColor = Color.DimGray;
             button20.FlatAppearance.BorderSize = 0;
             button20.FlatStyle = FlatStyle.Flat;
             button20.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -471,7 +478,7 @@
             // 
             // button21
             // 
-            button21.BackColor = Color.Gainsboro;
+            button21.BackColor = Color.DimGray;
             button21.FlatAppearance.BorderSize = 0;
             button21.FlatStyle = FlatStyle.Flat;
             button21.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -485,7 +492,7 @@
             // 
             // button22
             // 
-            button22.BackColor = Color.Gainsboro;
+            button22.BackColor = Color.DimGray;
             button22.FlatAppearance.BorderSize = 0;
             button22.FlatStyle = FlatStyle.Flat;
             button22.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -499,7 +506,7 @@
             // 
             // button23
             // 
-            button23.BackColor = Color.Gainsboro;
+            button23.BackColor = Color.DimGray;
             button23.FlatAppearance.BorderSize = 0;
             button23.FlatStyle = FlatStyle.Flat;
             button23.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -513,7 +520,7 @@
             // 
             // button24
             // 
-            button24.BackColor = Color.Gainsboro;
+            button24.BackColor = Color.DimGray;
             button24.FlatAppearance.BorderSize = 0;
             button24.FlatStyle = FlatStyle.Flat;
             button24.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -527,7 +534,7 @@
             // 
             // button25
             // 
-            button25.BackColor = Color.Gainsboro;
+            button25.BackColor = Color.DimGray;
             button25.FlatAppearance.BorderSize = 0;
             button25.FlatStyle = FlatStyle.Flat;
             button25.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -541,7 +548,7 @@
             // 
             // button26
             // 
-            button26.BackColor = Color.Gainsboro;
+            button26.BackColor = Color.DimGray;
             button26.FlatAppearance.BorderSize = 0;
             button26.FlatStyle = FlatStyle.Flat;
             button26.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -555,7 +562,7 @@
             // 
             // button27
             // 
-            button27.BackColor = Color.Gainsboro;
+            button27.BackColor = Color.DimGray;
             button27.FlatAppearance.BorderSize = 0;
             button27.FlatStyle = FlatStyle.Flat;
             button27.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -569,7 +576,7 @@
             // 
             // button28
             // 
-            button28.BackColor = Color.Gainsboro;
+            button28.BackColor = Color.DimGray;
             button28.FlatAppearance.BorderSize = 0;
             button28.FlatStyle = FlatStyle.Flat;
             button28.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -583,7 +590,7 @@
             // 
             // button29
             // 
-            button29.BackColor = Color.Gainsboro;
+            button29.BackColor = Color.DimGray;
             button29.FlatAppearance.BorderSize = 0;
             button29.FlatStyle = FlatStyle.Flat;
             button29.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -597,7 +604,7 @@
             // 
             // button30
             // 
-            button30.BackColor = Color.Gainsboro;
+            button30.BackColor = Color.DimGray;
             button30.FlatAppearance.BorderSize = 0;
             button30.FlatStyle = FlatStyle.Flat;
             button30.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -611,7 +618,7 @@
             // 
             // button31
             // 
-            button31.BackColor = Color.Gainsboro;
+            button31.BackColor = Color.DimGray;
             button31.FlatAppearance.BorderSize = 0;
             button31.FlatStyle = FlatStyle.Flat;
             button31.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -625,7 +632,7 @@
             // 
             // button32
             // 
-            button32.BackColor = Color.Gainsboro;
+            button32.BackColor = Color.DimGray;
             button32.FlatAppearance.BorderSize = 0;
             button32.FlatStyle = FlatStyle.Flat;
             button32.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -639,7 +646,7 @@
             // 
             // button33
             // 
-            button33.BackColor = Color.Gainsboro;
+            button33.BackColor = Color.DimGray;
             button33.FlatAppearance.BorderSize = 0;
             button33.FlatStyle = FlatStyle.Flat;
             button33.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -653,7 +660,7 @@
             // 
             // button34
             // 
-            button34.BackColor = Color.Gainsboro;
+            button34.BackColor = Color.DimGray;
             button34.FlatAppearance.BorderSize = 0;
             button34.FlatStyle = FlatStyle.Flat;
             button34.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -667,7 +674,7 @@
             // 
             // button35
             // 
-            button35.BackColor = Color.Gainsboro;
+            button35.BackColor = Color.DimGray;
             button35.FlatAppearance.BorderSize = 0;
             button35.FlatStyle = FlatStyle.Flat;
             button35.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -681,7 +688,7 @@
             // 
             // button36
             // 
-            button36.BackColor = Color.Gainsboro;
+            button36.BackColor = Color.DimGray;
             button36.FlatAppearance.BorderSize = 0;
             button36.FlatStyle = FlatStyle.Flat;
             button36.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -695,7 +702,7 @@
             // 
             // button37
             // 
-            button37.BackColor = Color.Gainsboro;
+            button37.BackColor = Color.DimGray;
             button37.FlatAppearance.BorderSize = 0;
             button37.FlatStyle = FlatStyle.Flat;
             button37.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -709,7 +716,7 @@
             // 
             // button38
             // 
-            button38.BackColor = Color.Gainsboro;
+            button38.BackColor = Color.DimGray;
             button38.FlatAppearance.BorderSize = 0;
             button38.FlatStyle = FlatStyle.Flat;
             button38.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -723,7 +730,7 @@
             // 
             // button39
             // 
-            button39.BackColor = Color.Gainsboro;
+            button39.BackColor = Color.Gray;
             button39.FlatAppearance.BorderSize = 0;
             button39.FlatStyle = FlatStyle.Flat;
             button39.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -737,7 +744,7 @@
             // 
             // button40
             // 
-            button40.BackColor = Color.Gainsboro;
+            button40.BackColor = Color.DimGray;
             button40.FlatAppearance.BorderSize = 0;
             button40.FlatStyle = FlatStyle.Flat;
             button40.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -751,7 +758,7 @@
             // 
             // button41
             // 
-            button41.BackColor = Color.Gainsboro;
+            button41.BackColor = Color.DimGray;
             button41.FlatAppearance.BorderSize = 0;
             button41.FlatStyle = FlatStyle.Flat;
             button41.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -765,7 +772,7 @@
             // 
             // button42
             // 
-            button42.BackColor = Color.Gainsboro;
+            button42.BackColor = Color.DimGray;
             button42.FlatAppearance.BorderSize = 0;
             button42.FlatStyle = FlatStyle.Flat;
             button42.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -779,7 +786,7 @@
             // 
             // button43
             // 
-            button43.BackColor = Color.Gainsboro;
+            button43.BackColor = Color.DimGray;
             button43.FlatAppearance.BorderSize = 0;
             button43.FlatStyle = FlatStyle.Flat;
             button43.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -793,7 +800,7 @@
             // 
             // button44
             // 
-            button44.BackColor = Color.Gainsboro;
+            button44.BackColor = Color.DimGray;
             button44.FlatAppearance.BorderSize = 0;
             button44.FlatStyle = FlatStyle.Flat;
             button44.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -807,7 +814,7 @@
             // 
             // button45
             // 
-            button45.BackColor = Color.Gainsboro;
+            button45.BackColor = Color.DimGray;
             button45.FlatAppearance.BorderSize = 0;
             button45.FlatStyle = FlatStyle.Flat;
             button45.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -821,7 +828,7 @@
             // 
             // button46
             // 
-            button46.BackColor = Color.Gainsboro;
+            button46.BackColor = Color.DimGray;
             button46.FlatAppearance.BorderSize = 0;
             button46.FlatStyle = FlatStyle.Flat;
             button46.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -835,7 +842,7 @@
             // 
             // button47
             // 
-            button47.BackColor = Color.Gainsboro;
+            button47.BackColor = Color.DimGray;
             button47.FlatAppearance.BorderSize = 0;
             button47.FlatStyle = FlatStyle.Flat;
             button47.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -849,7 +856,7 @@
             // 
             // button48
             // 
-            button48.BackColor = Color.Gainsboro;
+            button48.BackColor = Color.DimGray;
             button48.FlatAppearance.BorderSize = 0;
             button48.FlatStyle = FlatStyle.Flat;
             button48.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -863,7 +870,7 @@
             // 
             // button49
             // 
-            button49.BackColor = Color.Gainsboro;
+            button49.BackColor = Color.DimGray;
             button49.FlatAppearance.BorderSize = 0;
             button49.FlatStyle = FlatStyle.Flat;
             button49.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -877,7 +884,7 @@
             // 
             // button50
             // 
-            button50.BackColor = Color.Gainsboro;
+            button50.BackColor = Color.DimGray;
             button50.FlatAppearance.BorderSize = 0;
             button50.FlatStyle = FlatStyle.Flat;
             button50.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -891,7 +898,7 @@
             // 
             // button51
             // 
-            button51.BackColor = Color.Gainsboro;
+            button51.BackColor = Color.DimGray;
             button51.FlatAppearance.BorderSize = 0;
             button51.FlatStyle = FlatStyle.Flat;
             button51.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -905,7 +912,7 @@
             // 
             // button52
             // 
-            button52.BackColor = Color.Gainsboro;
+            button52.BackColor = Color.DimGray;
             button52.FlatAppearance.BorderSize = 0;
             button52.FlatStyle = FlatStyle.Flat;
             button52.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -919,7 +926,7 @@
             // 
             // button53
             // 
-            button53.BackColor = Color.Gainsboro;
+            button53.BackColor = Color.DimGray;
             button53.FlatAppearance.BorderSize = 0;
             button53.FlatStyle = FlatStyle.Flat;
             button53.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -933,7 +940,7 @@
             // 
             // button54
             // 
-            button54.BackColor = Color.Gainsboro;
+            button54.BackColor = Color.DimGray;
             button54.FlatAppearance.BorderSize = 0;
             button54.FlatStyle = FlatStyle.Flat;
             button54.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -947,7 +954,7 @@
             // 
             // button55
             // 
-            button55.BackColor = Color.Gainsboro;
+            button55.BackColor = Color.DimGray;
             button55.FlatAppearance.BorderSize = 0;
             button55.FlatStyle = FlatStyle.Flat;
             button55.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -961,7 +968,7 @@
             // 
             // button56
             // 
-            button56.BackColor = Color.Gainsboro;
+            button56.BackColor = Color.DimGray;
             button56.FlatAppearance.BorderSize = 0;
             button56.FlatStyle = FlatStyle.Flat;
             button56.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -975,7 +982,7 @@
             // 
             // button57
             // 
-            button57.BackColor = Color.Gainsboro;
+            button57.BackColor = Color.DimGray;
             button57.FlatAppearance.BorderSize = 0;
             button57.FlatStyle = FlatStyle.Flat;
             button57.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -989,7 +996,7 @@
             // 
             // button58
             // 
-            button58.BackColor = Color.Gainsboro;
+            button58.BackColor = Color.DimGray;
             button58.FlatAppearance.BorderSize = 0;
             button58.FlatStyle = FlatStyle.Flat;
             button58.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -1003,7 +1010,7 @@
             // 
             // button59
             // 
-            button59.BackColor = Color.Gainsboro;
+            button59.BackColor = Color.DimGray;
             button59.FlatAppearance.BorderSize = 0;
             button59.FlatStyle = FlatStyle.Flat;
             button59.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -1017,7 +1024,7 @@
             // 
             // button60
             // 
-            button60.BackColor = Color.Gainsboro;
+            button60.BackColor = Color.DimGray;
             button60.FlatAppearance.BorderSize = 0;
             button60.FlatStyle = FlatStyle.Flat;
             button60.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -1031,7 +1038,7 @@
             // 
             // button61
             // 
-            button61.BackColor = Color.Gainsboro;
+            button61.BackColor = Color.DimGray;
             button61.FlatAppearance.BorderSize = 0;
             button61.FlatStyle = FlatStyle.Flat;
             button61.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -1045,7 +1052,7 @@
             // 
             // button62
             // 
-            button62.BackColor = Color.Gainsboro;
+            button62.BackColor = Color.DimGray;
             button62.FlatAppearance.BorderSize = 0;
             button62.FlatStyle = FlatStyle.Flat;
             button62.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -1059,7 +1066,7 @@
             // 
             // button63
             // 
-            button63.BackColor = Color.Gainsboro;
+            button63.BackColor = Color.DimGray;
             button63.FlatAppearance.BorderSize = 0;
             button63.FlatStyle = FlatStyle.Flat;
             button63.Font = new Font("Franklin Gothic Medium", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -1071,11 +1078,25 @@
             button63.UseVisualStyleBackColor = false;
             button63.Click += button63_Click;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Franklin Gothic Medium", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(12, 64);
+            label3.Name = "label3";
+            label3.Size = new Size(333, 16);
+            label3.TabIndex = 21;
+            label3.Text = "All builds will download too C:\\GTAG downloader\\quest\\historical";
+            // 
             // historical
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Gray;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(355, 893);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(flowLayoutPanel1);
@@ -1083,6 +1104,7 @@
             Name = "historical";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "historical";
+            Load += historical_Load;
             flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -1156,5 +1178,6 @@
         private Button button61;
         private Button button62;
         private Button button63;
+        private Label label3;
     }
 }

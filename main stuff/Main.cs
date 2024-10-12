@@ -1,4 +1,5 @@
 ﻿
+using GorillaTag_Downloader.builds;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,9 +27,8 @@ namespace GorillaTag_Downloader
 
         private void label2_Click(object sender, EventArgs e)
         {
-            
-            feb_aug21 feb = new feb_aug21();
-            feb.Show();
+
+
         }
 
         private void Main_Load(object sender, EventArgs e)
@@ -38,23 +38,20 @@ namespace GorillaTag_Downloader
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
-            sep_dec21 sep = new sep_dec21();
-            sep.Show();
+
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-          
-            jan_jun22 jan = new jan_jun22();
-            jan.Show();
+
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            
-            jul_dec22 dec = new jul_dec22();
-            dec.Show();
+
+
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -104,9 +101,7 @@ namespace GorillaTag_Downloader
 
         private void button10_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Extra ext = new Extra();
-            ext.Show();
+
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -131,6 +126,28 @@ namespace GorillaTag_Downloader
         private void button16_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            _2023 all23 = new _2023();
+            all23.Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            all2021 all21 = new all2021();
+            all21.Show();   
         }
     }
 }

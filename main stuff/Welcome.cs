@@ -1,4 +1,4 @@
-using GorillaTag_Downloader.main_stuff;
+using GorillaTag_Downloader.QuestBuilds;
 
 namespace GorillaTag_Downloader
 {
@@ -34,9 +34,9 @@ namespace GorillaTag_Downloader
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            mainquest manq = new mainquest();
-            manq.Show();
+           
+            historical histq = new historical();
+            histq.Show();
         }
     }
 }
