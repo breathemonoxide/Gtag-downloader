@@ -1,6 +1,6 @@
 # WELCOME TO GTAG DOWNLOADER!
 
-This is a project that aims to allow you to experience gorilla tag as it was before. 
+Quickly and easily download older builds of gorilla tag
 
 # Why no multiplayer? 
 
