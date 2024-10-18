@@ -1,20 +1,25 @@
-# WELCOME TO GTAG DOWNLOADER!
+# Quickly and easily download older builds of gorilla tag
 
-Quickly and easily download older builds of gorilla tag
+Be sure to join the discord server for help and announcements! https://discord.gg/F9kU5HNqWc
 
-# Why no multiplayer? 
+# FAQ
 
-The main reason for no multiplayer is for legal reasons as we are not exactly sure how the law would see this also we dont fancy a cease and desist from Another Axiom.
+Can you add multiplayer?
 
-# Can this get me banned from gorilla tag?
+We could but it would make GTAG downloader too similar to the project "GT patcher".
 
-Nope! The builds of gorilla tag you are downloading are entirely seperate from your officially installed version meaning in no way do they even know eachother exists.
+Will there be a linux release?
 
-# Im having a problem what do i do?
+We would love to make one and have plans to do so in the near future.
 
-You can join the Discord server: https://discord.gg/F9kU5HNqWc and seek the support you need! We are always happy to help :)
+Why does it ask for my steam credidentials?
 
+This is to verify that you own Gorilla Tag before you download any builds as without this GTAG downloader would be illegal. No credentials go to us or depotdownloader but go straight to steam.
 
+Why are there only historical Quest builds?
 
+This is because honestly we dont know how quest auth would work so you can just have historical for now.
 
+When will GTAG downloader be out of pre-release
 
+Hopefully by the end of November 2024 but you can still download pre-release versions
